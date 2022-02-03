@@ -1,0 +1,17 @@
+#box{
+    width: 500px;
+    height: auto; 
+}
+.box-text{
+    font-style: normal;
+    color: black;
+}
+
+div#box > .simple-text{
+    color: blue;
+}
+
+div#box > p > span{
+    font-weight: bold;
+    color: blueviolet;
+}
